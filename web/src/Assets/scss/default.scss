@@ -1,0 +1,56 @@
+@import "_config.scss";
+
+header {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
+  background: $darkGreen;
+  color: $white;
+  height: 100px;
+
+  img {
+    position: absolute;
+    top: 50%; left: 50px;
+    border-radius: 50%;
+    zoom:0.10;
+    -moz-transform:scale(0.10);
+    -moz-transform-origin: 0 0;
+    @include translateY(-50%);
+  }
+
+  nav,
+  nav ul,
+  nav ul li {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    position: absolute;
+    top: 50%; right: 50px;
+    @include translateY(-50%);
+
+    ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 30px;
+
+      &.last {
+        margin: 0;
+      }
+
+      a {
+        font-size: 19px;
+        line-height: normal;
+        color: $white;
+      }
+    }
+
+  }
+}
+
+homePage {
+  top: 100px;
+}
