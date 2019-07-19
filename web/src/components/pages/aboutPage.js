@@ -2,15 +2,16 @@ import React from 'react';
 
 function Aboutpage() {
   return (
-    <div className="container-fluid">
+    <div className="aboutPage">
+    <img src="/images/background.jpg" />
 
-    <h1><center>
-      About page content here
-    </center></h1>
+    <div className="content">
 
-    <p><center>
-      YOLO MAMA 333
-    </center></p>
+      <h1><center>
+        About Us
+      </center></h1>
+
+    </div>
 
     </div>
   );

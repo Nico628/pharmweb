@@ -2,17 +2,28 @@
 
 header {
   position: -webkit-sticky;
-  position: fixed;
+  position: sticky;
   top: 0;
+  padding: 30px;
+  border: 1px solid $darkGrey;
   display: block;
   width: 100%;
-  background: $darkGreen;
+  background: $darkBlue;
   color: $white;
   height: 100px;
 
+  .name {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    top: 50%; left: 15%;
+    @include translateY(-50%);
+  }
+
   img {
     position: absolute;
-    top: 50%; left: 50px;
+    top: 50%; left: 3%;
     border-radius: 50%;
     zoom:0.10;
     -moz-transform:scale(0.10);
@@ -51,6 +62,67 @@ header {
   }
 }
 
-homePage {
-  top: 100px;
+.homePage {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  color: $white;
+
+  img {
+    position: fixed;
+    padding: 0;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.7;
+  }
+
+  .content {
+    position: inherit;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+}
+
+.contactPage {
+  position: relative;
+  display: block;
+  color: $white;
+
+  img {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+
+  .content {
+    position: inherit;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+}
+
+.aboutPage {
+  position: relative;
+  display: block;
+  color: $white;
+
+  img {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+
+  .content {
+    position: inherit;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
 }

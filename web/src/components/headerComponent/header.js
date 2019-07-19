@@ -9,6 +9,7 @@ function Header() {
     <header>
 
     <img src="/images/pharm.png" />
+    <div class="name">XXX Pharmacy</div>
 
     <nav>
       <ul>
