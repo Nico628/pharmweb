@@ -1,64 +1,61 @@
 @import "_config.scss";
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 30px;
-  border: 1px solid $darkGrey;
-  display: block;
-  width: 100%;
-  background: $darkBlue;
-  color: $white;
-  height: 100px;
 
-  .name {
-    font-size: 30px;
-    font-style: italic;
-    font-weight: bold;
-    position: absolute;
-    top: 50%; left: 15%;
-    @include translateY(-50%);
+  .bg-img {
+    background-image: url("/images/background.jpg");
+
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
 
   img {
-    position: absolute;
-    top: 50%; left: 3%;
+    position: fixed;
+    margin: 170px;
+    left: 100px; top: 30px;
     border-radius: 50%;
-    zoom:0.10;
-    -moz-transform:scale(0.10);
+    zoom:0.08;
+    -moz-transform:scale(0.08);
     -moz-transform-origin: 0 0;
-    @include translateY(-50%);
   }
 
-  nav,
-  nav ul,
-  nav ul li {
-    margin: 0;
-    padding: 0;
+  .tag {
+    font-size: 35px;
+    font-style: italic;
+    position: fixed;
+    color: $white;
+    margin: 20px;
+    top: 5px; left: 100px;
   }
 
-  nav {
-    position: absolute;
-    top: 50%; right: 50px;
-    @include translateY(-50%);
+  .containernav {
+    position: fixed;
+    margin: 20px;
+    right: 10px;
+    top: 5px;
+    width: auto;
+  }
 
-    ul li {
-      list-style-type: none;
-      display: inline-block;
-      margin-right: 30px;
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
 
-      &.last {
-        margin: 0;
-      }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
-      a {
-        font-size: 19px;
-        line-height: normal;
-        color: $white;
-      }
-    }
-
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
 }
 
@@ -69,60 +66,31 @@ header {
   position: relative;
   display: block;
   color: $white;
-
-  img {
-    position: fixed;
-    padding: 0;
-    display: block;
-    max-height: 100%;
-    max-width: 100%;
-    opacity: 0.7;
-  }
-
-  .content {
-    position: inherit;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-  }
+  font-size: 40px;
+  text-align: center;
+  top: 100px;
 }
 
 .contactPage {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   position: relative;
   display: block;
   color: $white;
-
-  img {
-    position: fixed;
-    width: 100%;
-    height: auto;
-    opacity: 0.7;
-  }
-
-  .content {
-    position: inherit;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-  }
+  font-size: 40px;
+  text-align: center;
+  top: 100px;
 }
 
 .aboutPage {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   position: relative;
   display: block;
   color: $white;
-
-  img {
-    position: fixed;
-    width: 100%;
-    height: auto;
-    opacity: 0.7;
-  }
-
-  .content {
-    position: inherit;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-  }
+  font-size: 40px;
+  text-align: center;
+  top: 100px;
 }
