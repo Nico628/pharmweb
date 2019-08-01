@@ -1,27 +1,26 @@
 import React from 'react';
 
-function Aboutpage() {
+function Contactpage_en() {
   return (
     <header>
 
-    <div class="bg-img">
     <img src="/images/pharm.png" />
     <div class ="tag">
-    Nico's Pharmacy
+    Park Pacific Pharmacy
     </div>
     <div class="containernav">
     <div class="topnav">
     <a href="/">Home</a>
-    <a href="/Contact">Contact</a>
-    <a href="/About">About</a>
+    <a href="/Contact/en">Contact</a>
+    <a href="/About/en">About</a>
+    <a href="/Contact/ch">繁體</a>
     </div>
     </div>
-    <div className="aboutPage">
-    ABOUT US
-    </div>
+    <div className="contactPage">
+    CONTACT US
     </div>
     </header>
   );
 }
 
-export default Aboutpage;
+export default Contactpage_en;
