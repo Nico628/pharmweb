@@ -4,7 +4,7 @@ function Homepage_en() {
   return (
     <header>
 
-    <img src="/images/pharm.png" />
+    <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
@@ -18,6 +18,15 @@ function Homepage_en() {
     </div>
     <div className="homePage">
     HOME
+    </div>
+
+    <div className="slider">
+      <div className="slide1"></div>
+      <div className="slide2"></div>
+      <div className="slide3"></div>
+      <div className="slide4"></div>
+      <div className="slide5"></div>
+      <div className="slide6"></div>
     </div>
     </header>
   );

@@ -1,8 +1,7 @@
 @import "_config.scss";
 
 header {
-
-  img {
+  .icon {
     position: absolute;
     margin: 170px;
     left: 100px; top: 30px;
@@ -99,4 +98,62 @@ header {
   margin-right: 50px;
   margin-top: 10px;
   top: 100px;
+}
+
+
+
+.slider {
+  margin-top: 120px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 1000px;
+  height: auto;
+
+  position: inherit;
+}
+.slide1,.slide2,.slide3 {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+}
+.slide1 {
+  background: url(/images/p3.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade 8s infinite;
+-webkit-animation:fade 16s infinite;
+
+}
+.slide2 {
+  background: url(/images/p4.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 16s infinite;
+}
+.slide3 {
+    background: url(/images/p5.jpg)no-repeat center;
+      background-size: contain;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 16s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
 }

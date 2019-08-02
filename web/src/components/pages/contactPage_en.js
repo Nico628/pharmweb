@@ -4,7 +4,7 @@ function Contactpage_en() {
   return (
     <header>
 
-    <img src="/images/pharm.png" />
+    <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
