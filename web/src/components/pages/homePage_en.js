@@ -3,23 +3,22 @@ import React from 'react';
 function Homepage_en() {
   return (
     <header>
-
+    <div className="headerbar">
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
     </div>
     <div class="containernav">
     <div class="topnav">
-    <a href="/">Home</a>
+    <a href="/" className="active">Home</a>
     <a href="/Contact/en">Contact</a>
     <a href="/About/en">About</a>
     <a href="/ch">繁體</a>
     </div>
     </div>
-    <div className="homePage">
-    HOME
     </div>
 
+    <div className="sliderC">
     <div className="slider">
       <div className="slide1"></div>
       <div className="slide2"></div>
@@ -28,6 +27,10 @@ function Homepage_en() {
       <div className="slide5"></div>
       <div className="slide6"></div>
     </div>
+    </div>
+    <div className="homePage"><h1>Why Us?</h1>
+    <p>If you are looking for a pharmacy in Richmond, BC, come to Park Pacific Pharmacy. We have 40 years of experience providing prescription medicines, vitamins, first aid supplies, and so much more. We have a variety of products and we are sure to have what you are looking for. We strive to offer our patients with phenomenal service and products that are easily affordable. For a great drug store in Richmond, BC, call on Park Pacific Pharmacy.
+    </p></div>
     </header>
   );
 }

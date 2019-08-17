@@ -3,7 +3,7 @@ import React from 'react';
 function Aboutpage_ch() {
   return (
     <header>
-
+    <div className="headerbar">
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     保康西藥房
@@ -12,12 +12,13 @@ function Aboutpage_ch() {
     <div class="topnav">
     <a href="/ch">首頁</a>
     <a href="/Contact/ch">聯絡</a>
-    <a href="/About/ch">關於</a>
+    <a href="/About/ch" className="active">關於</a>
     <a href="/About/en">English</a>
     </div>
     </div>
+    </div>
     <div className="aboutPage">
-    關於我們
+    <center><img className="map" src="/images/map.png" /></center>
     </div>
     <div className="words">
 

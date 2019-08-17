@@ -3,7 +3,7 @@ import React from 'react';
 function Contactpage_en() {
   return (
     <header>
-
+    <div className="headerbar">
     <img className="icon" src="/images/pharm.png" />
     <div class ="tag">
     Park Pacific Pharmacy
@@ -11,14 +11,16 @@ function Contactpage_en() {
     <div class="containernav">
     <div class="topnav">
     <a href="/">Home</a>
-    <a href="/Contact/en">Contact</a>
+    <a href="/Contact/en" className="active">Contact</a>
     <a href="/About/en">About</a>
     <a href="/Contact/ch">繁體</a>
     </div>
     </div>
-    <div className="contactPage">
-    CONTACT US
     </div>
+    <div className="contactPage">
+    
+    </div>
+
     </header>
   );
 }
