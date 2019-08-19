@@ -18,7 +18,39 @@ function Contactpage_ch() {
     </div>
     </div>
     <div className="contactPage">
-    聯絡我們
+    <center>
+    <div className="table">
+    <tr>
+      <th><h3>營業時間</h3></th>
+    </tr>
+    <tr>
+      <th>週一: 10:00 am - 6:00 pm</th>
+    </tr>
+    <tr>
+      <th>週二: 10:00 am - 6:00 pm</th>
+    </tr>
+    <tr>
+      <th>週三: 10:00 am - 6:00 pm</th>
+    </tr>
+    <tr>
+      <th>週四: 10:00 am - 6:00 pm</th>
+    </tr>
+    <tr>
+      <th>週五: 10:00 am - 6:00 pm</th>
+    </tr>
+    <tr>
+      <th>週六: 10:00 am - 3:00 pm</th>
+    </tr>
+    <tr>
+      <th>週日: Closed am - Closed pm</th>
+    </tr>
+    </div>
+    </center>
+    </div>
+
+    <div className="contactinfo">
+      <p>地址: 3700 No 3 Rd #2260, Richmond, BC V6X3X2</p>
+      <p>電話: (604) 273-9812</p>
     </div>
     </header>
   );

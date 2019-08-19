@@ -28,9 +28,12 @@ function Homepage_ch() {
       <div className="slide6"></div>
     </div>
     </div>
-    <div className="homePage"><h1>Why Us?</h1>
-    <p>If you are looking for a pharmacy in Richmond, BC, come to Park Pacific Pharmacy. We have 40 years of experience providing prescription medicines, vitamins, first aid supplies, and so much more. We have a variety of products and we are sure to have what you are looking for. We strive to offer our patients with phenomenal service and products that are easily affordable. For a great drug store in Richmond, BC, call on Park Pacific Pharmacy.
-    </p></div>
+    <div className="homePage">
+    <div className="whyus">
+    <h1>為何選擇我們</h1>
+    <p>保康藥房具有五十年經驗服務大眾於配藥，保健品，急救用品,成藥等等。我們致力提供最佳服務同產品給客戶，價廉物美。</p>
+    </div>
+    </div>
     </header>
   );
 }

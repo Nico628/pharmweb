@@ -7,6 +7,7 @@ header {
     position: fixed;
     z-index: 1;
     background-color: $lightBrown;
+    border: 1px solid $black;
   }
 
   .map {
@@ -28,6 +29,7 @@ header {
     zoom:0.5;
     -moz-transform:scale(0.5);
     -moz-transform-origin: 0 0;
+    border: 2px solid $black;
   }
 
   .tag {
@@ -85,24 +87,39 @@ header {
   position: absolute;
   color: $black;
   background-color: $white;
-  font-size: 20px;
-  text-align: center;
   margin-top: 770px;
   width: 100%;
   display: block;
   padding: 0;
+
+  .whyus {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 
 .contactPage {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  display: block;
+  background-color: $black;
+  top: 80px;
+  width: 100%;
+  height: 520px;
+  position: absolute;
+  color: $white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contactinfo {
+  font-size: 25px;
   color: $black;
-  font-size: 40px;
-  text-align:center;
-  top: 110px;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  text-align: center;
+  margin-top: 620px;
 }
 
 .aboutPage {
@@ -127,20 +144,41 @@ header {
   color: $black;
   font-size: 20px;
   text-align: left;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
   margin-top: 40px;
   top: 100px;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid #ddd;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 450px;
+  background-color: $lightGrey;
+  color: $black;
+  margin-top: 50px;
+  position: inherit;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
 }
 
 .sliderC {
   background-color: $black;
   top: 110px;
   width: 100%;
-  height: 100%;
+  height: 700px;
   position: absolute;
   color: $white;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
