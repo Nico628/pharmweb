@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.3e08507d.chunk.css",
-    "main.js": "/web/static/js/main.7889a7f7.chunk.js",
-    "runtime~main.js": "/web/static/js/runtime~main.c75ffd02.js",
-    "static/js/2.df8dace8.chunk.js": "/web/static/js/2.df8dace8.chunk.js",
-    "index.html": "/web/index.html",
-    "precache-manifest.8f85d511bcd64aed0e7a1bb2f26be71e.js": "/web/precache-manifest.8f85d511bcd64aed0e7a1bb2f26be71e.js",
-    "service-worker.js": "/web/service-worker.js"
+    "main.css": "/web/src/App.js/static/css/main.3e08507d.chunk.css",
+    "main.js": "/web/src/App.js/static/js/main.1e23c59b.chunk.js",
+    "runtime~main.js": "/web/src/App.js/static/js/runtime~main.d3c4260e.js",
+    "static/js/2.df8dace8.chunk.js": "/web/src/App.js/static/js/2.df8dace8.chunk.js",
+    "index.html": "/web/src/App.js/index.html",
+    "precache-manifest.aa54dabc6e991a6a3752b5e228723197.js": "/web/src/App.js/precache-manifest.aa54dabc6e991a6a3752b5e228723197.js",
+    "service-worker.js": "/web/src/App.js/service-worker.js"
   }
 }
